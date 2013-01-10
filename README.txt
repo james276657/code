@@ -11,15 +11,15 @@ Folders
 Linux
 	
 	cscrape
-		This c code is designed to be compiled with gcc using the make file in a linux 
-		environment and driven with the included bash program.  Cscrape searches for 
-		and returns a list of items for sale from Portland.craigslist.org
+		This c code is designed to be compiled with gcc using the make file in a 
+		linux environment and driven with the included bash program.  Cscrape 
+		searches for and returns a list of items for sale from 
+		Portland.craigslist.org
 	 
 Windows
 
 	C#
 		TCP/IP
-		
 			Client and Server code using socket communications over network
 
 	
