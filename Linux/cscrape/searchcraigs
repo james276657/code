@@ -1,0 +1,181 @@
+#! /bin/bash
+
+#
+#	Assignment 4 - bash script component by James Brooks  6/10/2012
+#	CST 240 Unix Spring 2012 OIT 
+#
+#	This bash script, searchcraigs, is a driver for the program cscrape.
+# 	It passes arguments to cscrape facillitating search of portland.craigslist.org,
+#	finding items for sale.  A list of links for any items found is returned.
+#
+#	A history of searh items found and search terms used are kept in the
+#   	user's home directory.  These filenames are prepended a period to make
+#   	them hidden from normal listing calls.  The filenames all contain the
+#   	user name and the word cscrape.  
+#
+#   	The history file keeps track of searches made for the last
+#   	last thirty days and so does not report any previously found
+#   	links.  This feature can be overridden by specifying -H
+#   	on the command line which creates a new history file.
+#
+#   	The last search terms specified are stored so searching for
+#   	the same items repeatedly allows execution without search terms
+#	
+#	Searching looks for terms in both title and ad content information.
+#   
+#   	The link results of the last search returning new items are stored
+#   	in a file in the home directory file.	
+#	
+#   	The -Q flag turns off program advisories
+#
+#	command line example  ./searchcraigs [-H] [-Q] [<searchterm> <searchterm> ...]
+#
+#	example output
+#
+#	./searchcraigs roomba scooba
+#	http://portland.craigslist.org/mlt/hsd/3058208477.html IROBOT ROOMBA VACUUM
+#	http://portland.craigslist.org/clk/mat/3017818763.html BRAND NEW! Factory sealed iRobot Roomba 780
+#	http://portland.craigslist.org/mlt/tag/3064158484.html Voice Activated R2D2
+#	http://portland.craigslist.org/clk/ele/3045754853.html iRobot Roomba Scooba Repair
+#	http://portland.craigslist.org/clk/ele/3045784807.html I WANT YOUR BROKEN ROOMBA IROBOT SCOOBA
+#	http://corvallis.craigslist.org/hsh/3061920702.html iRobot Roomba 440 - $75
+#	http://portland.craigslist.org/mlt/for/3062044379.html I Robot Scooba
+#	http://portland.craigslist.org/clk/hsh/3058015297.html iROBOT SCOOBA OR TRADE
+#
+#
+
+
+#
+# Program Functions
+#
+
+# Add a new line to output
+
+newline ()
+{
+ echo -e "\r"
+}
+
+usage ()
+{
+ echo "usage  ./searchcraigs [-H] [-Q] [<searchterm> <searchterm> ...]"  
+ newline
+}
+
+# Print header information
+header ()
+{
+ echo "Assignment 4 by James Brooks  6/10/2012"
+ echo "CST 240 Unix Spring 2012 OIT Instructor Pete Myers"
+ newline
+ echo "This Bash script, searchcraigs, searches " 
+ echo "portland.craigslist.org for sale items."
+ echo "It returns a list of links for new items found."
+ newline
+}
+
+#
+# Main Program
+#
+
+# Local variables
+
+CSCRAPEPATH=""
+CSCRAPEFOUND=0
+ERROR=0
+QUIET=0
+
+# Program startup point
+
+# Save the command line
+
+CL=$@
+#echo "The command line is $CL"
+
+# Process command line parameters. Check for invalid parameters
+
+ERROR=0
+
+while [ $# -gt 0 ] ; do
+	# echo "Found command line parameter $1"
+	DASHPOS=`expr index "$1" -`
+	# echo "Dash Position is $DASHPOS in parameter $1"
+	if [ "$DASHPOS" -eq 1 ] ; then 
+		if [ "$1" == "-H" ] || [ "$1" == "-Q" ] ; then
+			#echo "Good Switch Parameter"
+			TEST=1
+			if [ "$1" = "-Q" ] ; then
+				QUIET=1
+			fi
+		else
+			#echo "Bad Switch Parameter"
+			ERROR=-1
+		fi
+	fi
+	shift 1 
+done
+
+if [ "$ERROR" -eq -1 ] ; then
+	newline
+	echo "Bad parameters in command line - ./searchcraigs $CL"
+	newline
+	usage
+	exit $ERROR
+fi
+
+# Find the cscrape program 
+
+CSCRAPEPATH="./cscrape"
+CSCRAPEFOUND=-2
+
+if [ "$CSCRAPEFOUND" -eq -2 ] ; then
+	if [ -e "$CSCRAPEPATH" ] ;then
+		CSCRAPEFOUND=0
+		#echo "cscrape found"
+	else
+		CSCRAPEPATH="/usr/bin/cscrape"
+	fi
+fi
+
+if [ "$CSCRAPEFOUND" -eq -2 ] ; then
+	if [ -e "$CSCRAPEPATH" ] ;then
+		CSCRAPEFOUND=0
+		#echo "cscrape found"
+	else
+		ERROR=$CSCRAPEFOUND
+	fi
+fi
+
+if [ "$ERROR" -eq -2 ] ; then
+	newline
+	echo "searchcraigs script can't find crscrape program at ./cscrape or /usr/bin/cscrape.  Please install."
+    	newline
+	exit $ERROR
+fi
+
+#Sign on if allowed.
+
+BASHCMD="Results for searchcraigs $CL"
+
+if [ "$QUIET" -ne 1 ] ; then
+	clear
+	header
+	echo "$BASHCMD"
+	newline
+fi
+
+#Run program
+
+CMD="$CSCRAPEPATH $CL"
+$CMD
+
+#Sign off if allowed.
+
+if [ "$QUIET" -ne 1 ] ; then
+	newline
+	echo "searchcraigs done"
+	newline
+fi
+
+#$ERROR should be 0 = Success here.
+exit $ERROR
