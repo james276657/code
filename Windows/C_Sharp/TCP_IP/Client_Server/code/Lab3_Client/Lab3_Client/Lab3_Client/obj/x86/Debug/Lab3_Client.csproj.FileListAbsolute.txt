@@ -1,0 +1,7 @@
+E:\CST415\Lab03\code\Lab3_Client\Lab3_Client\Lab3_Client\bin\Debug\Lab3_Client.exe
+E:\CST415\Lab03\code\Lab3_Client\Lab3_Client\Lab3_Client\bin\Debug\Lab3_Client.pdb
+E:\CST415\Lab03\code\Lab3_Client\Lab3_Client\Lab3_Client\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\CST415\Lab03\code\Lab3_Client\Lab3_Client\Lab3_Client\obj\x86\Debug\Lab3_Client.exe
+E:\CST415\Lab03\code\Lab3_Client\Lab3_Client\Lab3_Client\obj\x86\Debug\Lab3_Client.pdb
+C:\Documents and Settings\James Brooks\code\Windows\C_Sharp\TCP_IP\Lab03\code\Lab3_Client\Lab3_Client\Lab3_Client\obj\x86\Debug\Lab3_Client.exe
+C:\Documents and Settings\James Brooks\code\Windows\C_Sharp\TCP_IP\Lab03\code\Lab3_Client\Lab3_Client\Lab3_Client\obj\x86\Debug\Lab3_Client.pdb

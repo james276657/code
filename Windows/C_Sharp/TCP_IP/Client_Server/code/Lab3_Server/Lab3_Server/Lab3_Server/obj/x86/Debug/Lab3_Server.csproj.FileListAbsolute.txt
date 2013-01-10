@@ -1,0 +1,5 @@
+E:\CST415\Lab03\code\Lab3_Server\Lab3_Server\Lab3_Server\bin\Debug\Lab3_Server.exe
+E:\CST415\Lab03\code\Lab3_Server\Lab3_Server\Lab3_Server\bin\Debug\Lab3_Server.pdb
+E:\CST415\Lab03\code\Lab3_Server\Lab3_Server\Lab3_Server\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\CST415\Lab03\code\Lab3_Server\Lab3_Server\Lab3_Server\obj\x86\Debug\Lab3_Server.exe
+E:\CST415\Lab03\code\Lab3_Server\Lab3_Server\Lab3_Server\obj\x86\Debug\Lab3_Server.pdb
