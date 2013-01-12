@@ -1,9 +1,9 @@
-code
-====
+jimbo222/code repository
+========================
 
-James Brooks example code for git hub
+James Brooks example code for github
 
-This respository contains examples of my work showing working source code from 
+This respository contains examples showing working source code from 
 various projects in a range of languages.
 
 Folders
