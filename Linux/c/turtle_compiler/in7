@@ -1,0 +1,31 @@
+fd 10
+setc green
+pd
+setxy 400 400
+repeat 360
+[
+	fd 2
+	rt 1
+]
+repeat 2
+[
+	ifelse (color = green )
+	[
+		setc black
+		setxy 500 500
+		repeat 360
+		[
+			fd 2
+			rt 1
+		]
+	]
+	[
+		setc orange
+		setxy 600 600
+		repeat 360
+		[
+			fd 2
+			rt 1
+		]
+	]
+]

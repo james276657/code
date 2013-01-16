@@ -18,6 +18,12 @@ Linux
 			bash program.  Cscrape searches for and returns a list of items 
 			for sale from Portland.craigslist.org.   A Linux command line
 			project.
+			
+		Turtle Compiler
+			This c code along with Lex and Yacc is used to construct a 
+			Turtle compiler which converts turtle source to turtle
+			assembly programs suited to run in the included turtle
+			emulator.
 	 
 Windows
 
