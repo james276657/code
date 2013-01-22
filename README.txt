@@ -1,7 +1,7 @@
 jimbo222/code repository
 ========================
 
-James Brooks example code for github
+James Brooks example code
 
 This respository contains examples showing working source code from 
 various projects in a range of languages.
