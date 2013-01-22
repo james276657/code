@@ -32,6 +32,9 @@ Windows
 			Client and Server code using socket communications over network
 			A VS10 project.
 
+		Unit Test
+			A programming project demonstrating unit test in C#.  A VS10
+			project.
 	C++
 		Binary Search Tree
 			This is a C++ implementation for an array based binary search

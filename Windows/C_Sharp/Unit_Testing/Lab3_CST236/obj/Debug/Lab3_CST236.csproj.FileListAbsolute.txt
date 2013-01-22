@@ -1,0 +1,10 @@
+E:\cst236\Lab3\Lab3_Project\Lab3_CST236\Lab3_CST236\bin\Debug\Lab3_CST236.dll
+E:\cst236\Lab3\Lab3_Project\Lab3_CST236\Lab3_CST236\bin\Debug\Lab3_CST236.pdb
+E:\cst236\Lab3\Lab3_Project\Lab3_CST236\Lab3_CST236\obj\Debug\ResolveAssemblyReference.cache
+E:\cst236\Lab3\Lab3_Project\Lab3_CST236\Lab3_CST236\obj\Debug\Lab3_CST236.dll
+E:\cst236\Lab3\Lab3_Project\Lab3_CST236\Lab3_CST236\obj\Debug\Lab3_CST236.pdb
+C:\Documents and Settings\James Brooks\code\Windows\C_Sharp\Unit_Testing\Lab3_CST236\bin\Debug\Lab3_CST236.dll
+C:\Documents and Settings\James Brooks\code\Windows\C_Sharp\Unit_Testing\Lab3_CST236\bin\Debug\Lab3_CST236.pdb
+C:\Documents and Settings\James Brooks\code\Windows\C_Sharp\Unit_Testing\Lab3_CST236\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\James Brooks\code\Windows\C_Sharp\Unit_Testing\Lab3_CST236\obj\Debug\Lab3_CST236.dll
+C:\Documents and Settings\James Brooks\code\Windows\C_Sharp\Unit_Testing\Lab3_CST236\obj\Debug\Lab3_CST236.pdb

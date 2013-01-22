@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f6ff3264-582a-41e2-8d9a-295357d44adb" name="James Brooks@TC3 2013-01-21 17:08:03" runUser="TC3\James Brooks" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="482b55de-2417-4f90-8463-a3e7bac15364">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="James Brooks_TC3 2013-01-21 17_08_03" />
+  </TestSettings>
+  <Times creation="2013-01-21T17:08:03.4251250-08:00" queuing="2013-01-21T17:08:04.0345000-08:00" start="2013-01-21T17:08:04.0813750-08:00" finish="2013-01-21T17:08:04.5970000-08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetOccupation_TestMethod" storage="c:\documents and settings\james brooks\code\windows\c_sharp\unit_testing\lab3_cst236\bin\debug\lab3_cst236.dll" id="6d3132a4-06a3-d9e9-42e6-a93693b2ae7d">
+      <Execution id="707596ef-fda2-42f4-bf01-fcd80c21f323" />
+      <TestMethod codeBase="C:/Documents and Settings/James Brooks/code/Windows/C_Sharp/Unit_Testing/Lab3_CST236/bin/Debug/Lab3_CST236.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Lab3_CST236.UnitTest1, Lab3_CST236, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetOccupation_TestMethod" />
+    </UnitTest>
+    <UnitTest name="Backspace_TestMethod" storage="c:\documents and settings\james brooks\code\windows\c_sharp\unit_testing\lab3_cst236\bin\debug\lab3_cst236.dll" id="4e25b0e8-b824-79d5-e9b2-52b2d95ae242">
+      <Execution id="e89d5189-ec77-4eb1-b83b-41992660b3f4" />
+      <TestMethod codeBase="C:/Documents and Settings/James Brooks/code/Windows/C_Sharp/Unit_Testing/Lab3_CST236/bin/Debug/Lab3_CST236.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Lab3_CST236.UnitTest1, Lab3_CST236, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Backspace_TestMethod" />
+    </UnitTest>
+    <UnitTest name="Fibonacci_TestMethod" storage="c:\documents and settings\james brooks\code\windows\c_sharp\unit_testing\lab3_cst236\bin\debug\lab3_cst236.dll" id="0bb55630-7065-df0b-af6f-0cc54a133580">
+      <Execution id="cca427ce-4e2e-459f-b8f5-41181a970442" />
+      <TestMethod codeBase="C:/Documents and Settings/James Brooks/code/Windows/C_Sharp/Unit_Testing/Lab3_CST236/bin/Debug/Lab3_CST236.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Lab3_CST236.UnitTest1, Lab3_CST236, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Fibonacci_TestMethod" />
+    </UnitTest>
+    <UnitTest name="GetScore_TestMethod" storage="c:\documents and settings\james brooks\code\windows\c_sharp\unit_testing\lab3_cst236\bin\debug\lab3_cst236.dll" id="86471beb-a9b1-2441-2f55-2475bba909e8">
+      <Execution id="c37530ca-3112-4720-b760-d52dc2f555ec" />
+      <TestMethod codeBase="C:/Documents and Settings/James Brooks/code/Windows/C_Sharp/Unit_Testing/Lab3_CST236/bin/Debug/Lab3_CST236.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Lab3_CST236.UnitTest1, Lab3_CST236, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetScore_TestMethod" />
+    </UnitTest>
+    <UnitTest name="GetClassifier_TestMethod" storage="c:\documents and settings\james brooks\code\windows\c_sharp\unit_testing\lab3_cst236\bin\debug\lab3_cst236.dll" id="d8830a7b-1ee4-65f2-161c-49381f1eb6b8">
+      <Execution id="89f0d68d-60a6-4daa-8275-f975d04760c5" />
+      <TestMethod codeBase="C:/Documents and Settings/James Brooks/code/Windows/C_Sharp/Unit_Testing/Lab3_CST236/bin/Debug/Lab3_CST236.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Lab3_CST236.UnitTest1, Lab3_CST236, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetClassifier_TestMethod" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0bb55630-7065-df0b-af6f-0cc54a133580" executionId="cca427ce-4e2e-459f-b8f5-41181a970442" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86471beb-a9b1-2441-2f55-2475bba909e8" executionId="c37530ca-3112-4720-b760-d52dc2f555ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e25b0e8-b824-79d5-e9b2-52b2d95ae242" executionId="e89d5189-ec77-4eb1-b83b-41992660b3f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8830a7b-1ee4-65f2-161c-49381f1eb6b8" executionId="89f0d68d-60a6-4daa-8275-f975d04760c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d3132a4-06a3-d9e9-42e6-a93693b2ae7d" executionId="707596ef-fda2-42f4-bf01-fcd80c21f323" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cca427ce-4e2e-459f-b8f5-41181a970442" testId="0bb55630-7065-df0b-af6f-0cc54a133580" testName="Fibonacci_TestMethod" computerName="TC3" duration="00:00:00.0357344" startTime="2013-01-21T17:08:04.0970000-08:00" endTime="2013-01-21T17:08:04.5188750-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cca427ce-4e2e-459f-b8f5-41181a970442">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;34&gt;. Actual:&lt;33&gt;. Fibonacci</Message>
+          <StackTrace>   at Lab3_CST236.UnitTest1.Fibonacci_TestMethod() in C:\Documents and Settings\James Brooks\code\Windows\C_Sharp\Unit_Testing\Lab3_CST236\UnitTest1.cs:line 26
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c37530ca-3112-4720-b760-d52dc2f555ec" testId="86471beb-a9b1-2441-2f55-2475bba909e8" testName="GetScore_TestMethod" computerName="TC3" duration="00:00:00.0009106" startTime="2013-01-21T17:08:04.5345000-08:00" endTime="2013-01-21T17:08:04.5345000-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c37530ca-3112-4720-b760-d52dc2f555ec">
+    </UnitTestResult>
+    <UnitTestResult executionId="e89d5189-ec77-4eb1-b83b-41992660b3f4" testId="4e25b0e8-b824-79d5-e9b2-52b2d95ae242" testName="Backspace_TestMethod" computerName="TC3" duration="00:00:00.0009349" startTime="2013-01-21T17:08:04.5345000-08:00" endTime="2013-01-21T17:08:04.5345000-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e89d5189-ec77-4eb1-b83b-41992660b3f4">
+    </UnitTestResult>
+    <UnitTestResult executionId="89f0d68d-60a6-4daa-8275-f975d04760c5" testId="d8830a7b-1ee4-65f2-161c-49381f1eb6b8" testName="GetClassifier_TestMethod" computerName="TC3" duration="00:00:00.0012764" startTime="2013-01-21T17:08:04.5345000-08:00" endTime="2013-01-21T17:08:04.5345000-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89f0d68d-60a6-4daa-8275-f975d04760c5">
+    </UnitTestResult>
+    <UnitTestResult executionId="707596ef-fda2-42f4-bf01-fcd80c21f323" testId="6d3132a4-06a3-d9e9-42e6-a93693b2ae7d" testName="GetOccupation_TestMethod" computerName="TC3" duration="00:00:00.0007456" startTime="2013-01-21T17:08:04.5501250-08:00" endTime="2013-01-21T17:08:04.5501250-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="707596ef-fda2-42f4-bf01-fcd80c21f323">
+    </UnitTestResult>
+  </Results>
+</TestRun>
