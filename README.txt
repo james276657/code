@@ -19,6 +19,10 @@ Linux
 			for sale from Portland.craigslist.org.   A Linux command line
 			project.
 			
+		Threaded_Producer_Consumer
+			This c code for Linux demonstrates Threading and Semaphores
+			in several Producer Consumer solutions.
+			
 		Turtle Compiler
 			This c code along with Lex and Yacc is used to construct a 
 			Turtle compiler which converts turtle source to turtle
