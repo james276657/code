@@ -40,7 +40,7 @@ Windows
 			This is a C++ implementation for an array based binary search
 			tree with Insert and Delete methods as well as Inorder, Preorder,
 			and Postorder display.  Array based trees are harder because
-			post deletes tree fixups require moving nodes as opposed to 
+			post delete tree fixups require moving nodes as opposed to 
 			just updating links.  Example driver code is provided.
 			A VS10 project.
 			
