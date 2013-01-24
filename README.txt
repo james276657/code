@@ -15,7 +15,7 @@ Linux
 		cscrape
 			This c code is designed to be compiled with gcc using the 
 			make file in a linux environment and driven with the included 
-			bash program.  Cscrape searches for and returns a list of items 
+			BASH program.  Cscrape searches for and returns a list of items 
 			for sale from Portland.craigslist.org.   A Linux command line
 			project.
 			
@@ -47,6 +47,12 @@ Windows
 			post delete tree fixups require moving nodes as opposed to 
 			just updating links.  Example driver code is provided.
 			A VS10 project.
-			
+	SQL
+		Deko Database
+			This is an Access 2010 and an Oracle 10G implementation of a
+			small company database.  Given some input spreadsheets with
+			various data including employees, dependants, and evaluations,
+			I reduced the dataset to 3NF and instantiated Access and 10G
+			solutions.
 	
 	 
