@@ -31,6 +31,14 @@ Linux
 	 
 Windows
 
+	8086_Assembly
+		Book_File_Reader
+			An 8086 assembly language program built and debugged with
+			masm32 and VS10 envrionments.  This assembly code generates 
+			a windows program with a GUI window and menu.  The user can 
+			choose a book info file to open.  The book date author and title
+			are read in and sorted by date and are presented in a msgbox.
+			
 	C#
 		TCP/IP
 			Client and Server code using socket communications over network
