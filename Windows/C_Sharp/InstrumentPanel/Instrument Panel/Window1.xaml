@@ -1,0 +1,26 @@
+﻿<Window x:Class="Instrument_Panel.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Instrument Simulation Control - Brooks/Phillips" WindowStartupLocation="Manual"  Height="275" Width="249" ResizeMode="NoResize">
+        <Grid Name="W2" Height="237" Width="231">
+        <Slider  Orientation="Vertical" ValueChanged="gas_ValueChanged" Minimum="0" Maximum="9" Height="46" HorizontalAlignment="Left" Margin="170,12,0,0" Name="gas" VerticalAlignment="Top" Width="22" />
+        <Slider Orientation="Vertical" ValueChanged="brake_ValueChanged" Minimum="0" Maximum="9" Height="46" HorizontalAlignment="Left" Margin="100,12,0,0" Name="brake" VerticalAlignment="Top" Width="24" />
+        <Label  Content="Accelerator" Height="28" HorizontalAlignment="Left" Margin="148,65,0,0" Name="label1" VerticalAlignment="Top" Width="64" />
+        <Label Content="Brake" Height="28" HorizontalAlignment="Left" Margin="92,65,0,0" Name="label2" VerticalAlignment="Top" Width="37" />
+        <RadioButton Checked="TBtn1_Checked" GroupName="shift" IsChecked="True" Content="Park" Height="16" HorizontalAlignment="Left" Margin="12,10,0,0" Name="radioButton1" VerticalAlignment="Top" />
+        <RadioButton Checked="TBtn2_Checked" GroupName="shift" Content="Reverse" Height="16" HorizontalAlignment="Left" Margin="12,30,0,0" Name="radioButton2" VerticalAlignment="Top" />
+        <RadioButton Checked="TBtn3_Checked" GroupName="shift" Content="Neutral" Height="16" HorizontalAlignment="Left" Margin="12,50,0,0" Name="radioButton3" VerticalAlignment="Top" />
+        <RadioButton Checked="TBtn4_Checked" GroupName="shift" Content="Drive" Height="16" HorizontalAlignment="Left" Margin="12,70,0,0" Name="radioButton4" VerticalAlignment="Top" />
+        <RadioButton Checked="TBtn5_Checked" GroupName="shift" Content="3rd" Height="16" HorizontalAlignment="Left" Margin="12,90,0,0" Name="radioButton5" VerticalAlignment="Top" />
+        <RadioButton Checked="TBtn6_Checked" GroupName="shift" Content="2nd" Height="16" HorizontalAlignment="Left" Margin="12,110,0,0" Name="radioButton6" VerticalAlignment="Top" />
+        <RadioButton GroupName="display" Checked="DBtn1_Checked" Content="Analog" Height="16" HorizontalAlignment="Left" Margin="12,165,0,0" Name="radioButton7" VerticalAlignment="Top" />
+        <RadioButton GroupName="display" Checked="DBtn2_Checked" Content="Digital" Height="16" HorizontalAlignment="Left" Margin="12,195,0,0" Name="radioButton8" VerticalAlignment="Top" />
+        <Rectangle Height="141" HorizontalAlignment="Left" Name="rectangle1" Stroke="Black" VerticalAlignment="Top" Width="70" />
+        <Rectangle Height="96" HorizontalAlignment="Left" Margin="0,140,0,0" Name="rectangle2" Stroke="Black" VerticalAlignment="Top" Width="70" />
+        <Rectangle Height="141" HorizontalAlignment="Left" Margin="69,0,0,0" Name="rectangle3" Stroke="Black" VerticalAlignment="Top" Width="158" />
+        <Rectangle Height="96" HorizontalAlignment="Left" Margin="69,140,0,0" Name="rectangle4" Stroke="Black" VerticalAlignment="Top" Width="158" />
+        <Button Content="Start" Height="23" HorizontalAlignment="Left" Margin="110,155,0,0" Name="button1" VerticalAlignment="Top" Width="75" Click="button1_Click" />
+        <Button Content="Add 1 Gal" Height="23" HorizontalAlignment="Left" Margin="110,0,0,19" Name="button2" VerticalAlignment="Bottom" Width="75" Click="button2_Click" />
+        <Button Content="Reset Trip" Height="23" HorizontalAlignment="Left" Margin="110,103,0,0" Name="button3" VerticalAlignment="Top" Width="75" Click="button3_Click" />
+    </Grid>
+</Window>

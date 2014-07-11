@@ -1,0 +1,45 @@
+D:\SVN Folder\Dustin\Instrument Panel\Instrument Panel\bin\Debug\Instrument Panel.exe
+D:\SVN Folder\Dustin\Instrument Panel\Instrument Panel\bin\Debug\Instrument Panel.pdb
+D:\SVN Folder\Dustin\Instrument Panel\Instrument Panel\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\SVN Folder\Dustin\Instrument Panel\Instrument Panel\obj\x86\Debug\MainWindow.baml
+D:\SVN Folder\Dustin\Instrument Panel\Instrument Panel\obj\x86\Debug\MainWindow.g.cs
+D:\SVN Folder\Dustin\Instrument Panel\Instrument Panel\obj\x86\Debug\App.g.cs
+D:\SVN Folder\Dustin\Instrument Panel\Instrument Panel\obj\x86\Debug\Instrument Panel_MarkupCompile.cache
+D:\SVN Folder\Dustin\Instrument Panel\Instrument Panel\obj\x86\Debug\Instrument Panel.g.resources
+D:\SVN Folder\Dustin\Instrument Panel\Instrument Panel\obj\x86\Debug\Instrument_Panel.Properties.Resources.resources
+D:\SVN Folder\Dustin\Instrument Panel\Instrument Panel\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\SVN Folder\Dustin\Instrument Panel\Instrument Panel\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\SVN Folder\Dustin\Instrument Panel\Instrument Panel\obj\x86\Debug\Instrument Panel.exe
+D:\SVN Folder\Dustin\Instrument Panel\Instrument Panel\obj\x86\Debug\Instrument Panel.pdb
+C:\Users\Dustin\Desktop\GUI\Instrument Panel\Instrument Panel\obj\x86\Debug\Instrument Panel.exe
+C:\Users\Dustin\Desktop\GUI\Instrument Panel\Instrument Panel\obj\x86\Debug\Instrument Panel.pdb
+C:\Users\Dustin\Desktop\GUI\Instrument Panel\Instrument Panel\bin\Debug\Instrument Panel.exe
+C:\Users\Dustin\Desktop\GUI\Instrument Panel\Instrument Panel\bin\Debug\Instrument Panel.pdb
+C:\Users\Dustin\Desktop\GUI\Instrument Panel\Instrument Panel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dustin\Desktop\GUI\Instrument Panel\Instrument Panel\obj\x86\Debug\MainWindow.baml
+C:\Users\Dustin\Desktop\GUI\Instrument Panel\Instrument Panel\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Dustin\Desktop\GUI\Instrument Panel\Instrument Panel\obj\x86\Debug\App.g.cs
+C:\Users\Dustin\Desktop\GUI\Instrument Panel\Instrument Panel\obj\x86\Debug\Instrument Panel_MarkupCompile.cache
+C:\Users\Dustin\Desktop\GUI\Instrument Panel\Instrument Panel\obj\x86\Debug\Instrument Panel.g.resources
+C:\Users\Dustin\Desktop\GUI\Instrument Panel\Instrument Panel\obj\x86\Debug\Instrument_Panel.Properties.Resources.resources
+C:\Users\Dustin\Desktop\GUI\Instrument Panel\Instrument Panel\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Dustin\Desktop\GUI\Instrument Panel\Instrument Panel\obj\x86\Debug\GenerateResource.write.1.tlog
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\obj\x86\Debug\Instrument Panel.exe
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\obj\x86\Debug\Instrument Panel.pdb
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\bin\Debug\Instrument Panel.exe
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\bin\Debug\Instrument Panel.pdb
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\obj\x86\Debug\MainWindow.baml
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\obj\x86\Debug\MainWindow.g.cs
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\obj\x86\Debug\App.g.cs
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\obj\x86\Debug\Instrument Panel_MarkupCompile.cache
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\obj\x86\Debug\Instrument Panel.g.resources
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\obj\x86\Debug\Instrument_Panel.Properties.Resources.resources
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\obj\x86\Debug\GenerateResource.read.1.tlog
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\obj\x86\Debug\GenerateResource.write.1.tlog
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\obj\x86\Debug\Window1.baml
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\obj\x86\Debug\Window1.g.cs
+C:\Users\Dustin\Desktop\GUI\Instrument Panel\Instrument Panel\obj\x86\Debug\Window1.baml
+C:\Users\Dustin\Desktop\GUI\Instrument Panel\Instrument Panel\obj\x86\Debug\Window1.g.cs
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\obj\x86\Debug\Window2.baml
+I:\Info\CST238\Final\Instrument Panel\Instrument Panel\obj\x86\Debug\Window2.g.cs
