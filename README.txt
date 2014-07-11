@@ -40,6 +40,9 @@ Windows
 			are read in and sorted by date and are presented in a msgbox.
 			
 	C#
+	    InstrumentPanel
+			An animated car dashboard simulation using XAML and MVC controls.
+			
 		TCP/IP
 			Client and Server code using socket communications over network
 			A VS10 project.

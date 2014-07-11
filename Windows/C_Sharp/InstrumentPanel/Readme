@@ -1,1 +1,4 @@
-Instrument Panel
+Instrument Panel solution.  J. Brooks 7/10/14
+
+I co-developed this college project Car Dashboard simulation in C Sharp.  The gauges are created in XAML and animated with MVC patterns driven buy a GUI control panel.  The project was developed in MS Visual Studio 2010.
+
